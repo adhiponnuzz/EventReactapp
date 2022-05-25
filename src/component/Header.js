@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
 
-<nav class="navbar navbar-expand-lg bg-secondary">
+<nav class="navbar navbar-expand-lg bg-info">
   <div class="container-fluid">
       <Link to="/" class="navbar-brand">EVENTS</Link>
    
@@ -20,6 +20,10 @@ const Header = () => {
         </li>
         <li class="nav-item">
             <Link to="/search" class="nav-link">Search</Link>
+          
+        </li>
+        <li class="nav-item">
+            <Link to="/view" class="nav-link">View</Link>
           
         </li>
        
